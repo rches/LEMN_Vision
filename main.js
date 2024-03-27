@@ -123,7 +123,7 @@ function updateCanvas() {
 // Start the video stream
 navigator.mediaDevices.getUserMedia(
     { video: true,
-      facingMode: 'environment'
+      //facingMode: 'environment'
      },
       // Ask for video
 ).then((stream) => {
